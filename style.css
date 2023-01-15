@@ -108,7 +108,8 @@ border-radius: 8px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 10px;
-    grid-row-gap:10px
+    grid-row-gap:10px;
+    margin-left: 20px;
 }
 .quick-list-left-section img{
     width: 100%;
@@ -145,14 +146,20 @@ border-radius: 8px;
 .loveEnjoy-section{
     width: 80%;
     margin: 0 auto;
-    background:red;
-    margin-top: 30px;
+    
+    
 
  }
 .loveEnjoy-left{
     width: 50%;
-   
+    margin-top: 120px;
     
+}
+.loveEnjoy-left h2{
+    border-left: 4px solid orange;
+}
+.love-titile{
+    margin-top: 30px;
 }
 .loveEnjoy-right{
     width: 50%;
@@ -174,14 +181,6 @@ border-radius: 8px;
     color: #131313;
 
 }
-/* .fact-paragraph{
-    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
-    text-align: justify ; */
-/* } */
 .fact-icons-side{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -203,14 +202,6 @@ border-radius: 8px;
     color: #424242;
     
 }
-/* .icon-paragraph{
-    
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 23px;
-    color: #727272;
-
-} */
 .fact-icon:hover{
     background-color: aqua;
     color: #131313;
@@ -252,11 +243,14 @@ border-radius: 8px;
  }
  .footer{
     text-align: center;
+    height: 60px;
+    margin-top: 30px;
  }
  .footer-paragraph{
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 20px;
     text-align: center;
     color: #424242;
 
